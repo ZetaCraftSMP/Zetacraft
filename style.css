@@ -1,52 +1,62 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
 }
 
+/* Style the header */
 header {
-    background-color: #FC7A03;
-    color: #FFFFFF;
-    padding: 20px;
-    text-align: center;
+  background-color: orange;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Style the header content */
+.header-content {
+  color: white;
+}
+
+/* Style the navigation */
+nav {
+  background-color: orange;
+  text-align: right;
+  padding: 10px;
 }
 
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+  list-style-type: none;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px;
+  display: inline;
+  margin-left: 20px;
 }
 
 nav ul li a {
-    color: #000000;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
-main {
-    padding: 20px;
-}
-
+/* Style the footer */
 footer {
-    background-color: #FC7A03;
-    color: #FFFFFF;
-    padding: 10px;
+  background-color: orange;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Style the copyright */
+.copyright {
+  color: white;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  header, nav, footer {
     text-align: center;
-}
+  }
 
-/* CSS code for transitions */
-section {
-    display: none;
-    transition: opacity 0.5s ease-in-out; /* Define the transition property */
-}
-
-section.active {
+  nav ul li {
     display: block;
-    opacity: 1; /* Change opacity to reveal the section */
+    margin: 10px 0;
+  }
 }
-
