@@ -54,16 +54,12 @@ nav ul li a {
   border-radius: 5px; /* Rounded corners */
   border: 2px solid white; /* White border */
   transition: background-color 0.3s, color 0.3s;
+  background-color: #BE5504; /* Background color of buttons */
 }
 
 nav ul li a:hover {
-  background-color: orange; /* Fill in the text with orange color */
-  color: white; /* Change text color to white when hovered */
-}
-
-nav ul li a:hover {
-  background-color: white;
-  color: orange;
+  background-color: white; /* Background color of buttons when hovered */
+  color: #EC9706; /* Text color of buttons when hovered */
 }
 
 /* Footer styles */
