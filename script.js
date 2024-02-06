@@ -18,9 +18,11 @@ function resetTextColor() {
 function showContent(sectionId) {
     // Hide all sections
     document.querySelectorAll('main > section').forEach(section => {
-        section.style.display = 'none';
+        section.classList.remove('active');
     });
 
-    // Show the selected section
-    document.getElementById(sectionId).style.display = 'block';
+    // Show the selected section with a delay for the transition to take effect
+    setTimeout(() => {
+        document.getElementById(sectionId).classList.add('active');
+    }, 100);
 }
