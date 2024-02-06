@@ -30,17 +30,15 @@ header {
 
 /* Navigation styles */
 nav {
-    background-color: orange;
-    text-align: center;
-    padding: 10px 0;
-    width: 100%; /* Set the width to 100% */
-    z-index: 2; /* Ensure navigation is above header image */
+    position: absolute;
+    top: 20px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
 }
 
 nav ul {
     list-style-type: none;
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
+    margin: 0;
+    padding: 0;
 }
 
 nav ul li {
@@ -62,7 +60,6 @@ nav ul li a:hover {
     background-color: white;
     color: #EC9706;
 }
-
 /* Footer styles */
 footer {
     background-color: orange;
