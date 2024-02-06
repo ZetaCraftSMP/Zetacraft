@@ -1,69 +1,65 @@
 /* Header styles */
 header {
-  position: relative; /* Ensure relative positioning for absolute positioning inside */
-  background-image: url('https://media.discordapp.net/attachments/910910293402595338/1204447348760256643/2023-12-10_21.17.34.png'); /* Replace 'header-background.jpg' with your image path */
-  background-size: cover;
-  background-position: center;
-  color: white;
-  text-align: center;
-  padding-top: 200px; /* Increase the padding-top value for a taller header */
-  display: flex; /* Use flexbox for centering */
-  align-items: center; /* Center vertically */
-  justify-content: center; /* Center horizontally */
-}
-
-.header-content {
-  position: absolute;
-  top: 50%; /* Move to vertical center */
-  left: 50%; /* Move to horizontal center */
-  transform: translate(-50%, -50%); /* Center the element */
+    position: relative; /* Ensure relative positioning for absolute positioning inside */
+    background-image: url('https://media.discordapp.net/attachments/910910293402595338/1204447348760256643/2023-12-10_21.17.34.png'); /* Replace 'header-background.jpg' with your image path */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding-top: 200px; /* Increase the padding-top value for a taller header */
+    display: flex; /* Use flexbox for centering */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
 }
 
 .logo {
-  width: 200px; /* Adjust logo size */
-  margin-bottom: 20px;
+    background-image: url('https://cdn.discordapp.com/attachments/911425557286240286/1204486575023595642/Zetacraft_Standard_Logo.png'); /* Replace with your logo image path */
+    background-size: contain; /* Ensure the logo fits within the container */
+    background-repeat: no-repeat; /* Prevent the logo from repeating */
+    width: 200px; /* Adjust logo size */
+    height: 100px; /* Adjust logo height */
 }
 
 /* Navigation styles */
 nav {
-  background-color: orange;
-  text-align: center;
-  padding: 10px 0;
+    background-color: orange;
+    text-align: center;
+    padding: 10px 0;
 }
 
 nav ul {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 nav ul li {
-  display: inline;
-  margin-left: 20px;
+    display: inline;
+    margin-left: 20px;
 }
 
 nav ul li a {
-  color: orange; /* Orange text color for links */
-  text-decoration: none;
-  padding: 10px 20px; /* Adjust button padding */
-  border-radius: 5px; /* Rounded corners */
-  border: 2px solid white; /* White border */
-  transition: background-color 0.3s, color 0.3s;
-  background-color: #BE5504; /* Background color of buttons */
+    color: orange; /* Orange text color for links */
+    text-decoration: none;
+    padding: 10px 20px; /* Adjust button padding */
+    border-radius: 5px; /* Rounded corners */
+    border: 2px solid white; /* White border */
+    transition: background-color 0.3s, color 0.3s;
+    background-color: #BE5504; /* Background color of buttons */
 }
 
 nav ul li a:hover {
-  background-color: white; /* Background color of buttons when hovered */
-  color: #EC9706; /* Text color of buttons when hovered */
+    background-color: white; /* Background color of buttons when hovered */
+    color: #EC9706; /* Text color of buttons when hovered */
 }
 
 /* Footer styles */
 footer {
-  background-color: orange;
-  color: white;
-  text-align: center;
-  padding: 20px 0;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
 }
 
 /* Copyright styles */
 .copyright {
-  font-size: 14px;
+    font-size: 14px;
 }
