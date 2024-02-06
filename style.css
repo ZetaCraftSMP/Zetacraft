@@ -103,3 +103,16 @@ footer {
     justify-content: space-around; /* Distribute channels evenly */
     margin-bottom: 40px; /* Increased margin */
 }
+
+.channel-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.channel-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
