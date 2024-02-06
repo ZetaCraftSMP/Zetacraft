@@ -1,21 +1,3 @@
-/* Reset default margin and padding */
-body, h1, h2, h3, p, ul {
-  margin: 0;
-  padding: 0;
-}
-
-/* Global styles */
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f9f9f9; /* Light gray background */
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
 /* Header styles */
 header {
   position: relative; /* Ensure relative positioning for absolute positioning inside */
@@ -28,6 +10,13 @@ header {
   display: flex; /* Use flexbox for centering */
   align-items: center; /* Center vertically */
   justify-content: center; /* Center horizontally */
+}
+
+.header-content {
+  position: absolute;
+  top: 50%; /* Move to vertical center */
+  left: 50%; /* Move to horizontal center */
+  transform: translate(-50%, -50%); /* Center the element */
 }
 
 .logo {
