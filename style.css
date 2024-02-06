@@ -16,8 +16,12 @@ header {
     background-image: url('https://cdn.discordapp.com/attachments/911425557286240286/1204486575023595642/Zetacraft_Standard_Logo.png'); /* Replace with your logo image path */
     background-size: contain; /* Ensure the logo fits within the container */
     background-repeat: no-repeat; /* Prevent the logo from repeating */
-    width: 200px; /* Adjust logo size */
-    height: 100px; /* Adjust logo height */
+    width: 300px; /* Adjust logo width */
+    height: 150px; /* Adjust logo height */
+    position: absolute; /* Position the logo */
+    top: 50%; /* Align vertically */
+    left: 50%; /* Align horizontally */
+    transform: translate(-50%, -50%); /* Center the logo */
 }
 
 /* Navigation styles */
