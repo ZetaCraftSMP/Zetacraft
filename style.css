@@ -33,6 +33,7 @@ nav {
     position: absolute;
     top: 20px; /* Adjust as needed */
     right: 20px; /* Adjust as needed */
+    z-index: 1; /* Ensure navigation is above header content */
 }
 
 nav ul {
