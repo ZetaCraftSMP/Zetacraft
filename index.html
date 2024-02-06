@@ -12,9 +12,9 @@
     </header>
     <nav>
         <ul>
-            <li><a href="#about">About the SMP</a></li>
-            <li><a href="#zetas">The Zetas</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#" onclick="showContent('about')">About the SMP</a></li>
+            <li><a href="#" onclick="showContent('zetas')">The Zetas</a></li>
+            <li><a href="#" onclick="showContent('contact')">Contact</a></li>
         </ul>
     </nav>
     <main>
@@ -22,15 +22,11 @@
             <h2>About Us</h2>
             <p>Insert information about Zetacraft SMP here.</p>
         </section>
-        <section id="services">
-            <h2>Our Services</h2>
-            <ul>
-                <li>Service 1</li>
-                <li>Service 2</li>
-                <li>Service 3</li>
-            </ul>
+        <section id="zetas" style="display: none;"> <!-- Initially hidden -->
+            <h2>The Zetas</h2>
+            <p>Information about the members of Zetacraft SMP.</p>
         </section>
-        <section id="contact">
+        <section id="contact" style="display: none;"> <!-- Initially hidden -->
             <h2>Contact Us</h2>
             <p>Email: info@zetacraft.com</p>
         </section>
@@ -38,5 +34,7 @@
     <footer>
         <p>&copy; 2024 Zetacraft. All rights reserved.</p>
     </footer>
+
+    <script src="script.js"></script> <!-- Link to your external JavaScript file -->
 </body>
 </html>
