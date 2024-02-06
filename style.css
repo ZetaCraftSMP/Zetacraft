@@ -7,9 +7,11 @@ header {
     color: white;
     text-align: center;
     padding-top: 200px;
+    padding-bottom: 20px; /* Add padding to the bottom */
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: -20px; /* Remove the default margin */
 }
 
 .logo {
@@ -29,10 +31,13 @@ nav {
     background-color: orange;
     text-align: center;
     padding: 10px 0;
+    width: 100%; /* Set the width to 100% */
 }
 
 nav ul {
     list-style-type: none;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
 }
 
 nav ul li {
@@ -61,6 +66,8 @@ footer {
     color: white;
     text-align: center;
     padding: 20px 0;
+    width: 100%; /* Set the width to 100% */
+    margin-top: -20px; /* Compensate for negative margin on header */
 }
 
 /* Copyright styles */
@@ -95,6 +102,7 @@ footer {
     color: black;
     font-weight: bold;
 }
+
 /* Grid container */
 .grid-container {
     display: grid;
@@ -107,4 +115,4 @@ footer {
     border: 0px solid black; /* Border for visualization */
     padding: 20px;
     text-align: center;
-}
+} 
