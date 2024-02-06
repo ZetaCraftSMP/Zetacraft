@@ -1,5 +1,3 @@
-// JavaScript code for your website
-
 // Example function to handle button click event
 function handleClick() {
     alert('Button clicked!');
