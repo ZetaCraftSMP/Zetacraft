@@ -82,8 +82,8 @@ footer {
 }
 
 .channel-icon {
-    width: 64px;
-    height: 64px;
+    width: 64px; /* Adjusted size */
+    height: 64px; /* Adjusted size */
     margin-right: 10px;
 }
 
