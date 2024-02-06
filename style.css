@@ -1,27 +1,29 @@
+/* Existing styles */
+
 /* Header styles */
 header {
-    position: relative; /* Ensure relative positioning for absolute positioning inside */
-    background-image: url('https://media.discordapp.net/attachments/910910293402595338/1204447348760256643/2023-12-10_21.17.34.png'); /* Replace 'header-background.jpg' with your image path */
+    position: relative;
+    background-image: url('https://media.discordapp.net/attachments/910910293402595338/1204447348760256643/2023-12-10_21.17.34.png');
     background-size: cover;
     background-position: center;
     color: white;
     text-align: center;
-    padding-top: 200px; /* Increase the padding-top value for a taller header */
-    display: flex; /* Use flexbox for centering */
-    align-items: center; /* Center vertically */
-    justify-content: center; /* Center horizontally */
+    padding-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .logo {
-    background-image: url('https://cdn.discordapp.com/attachments/911425557286240286/1204486575023595642/Zetacraft_Standard_Logo.png'); /* Replace with your logo image path */
-    background-size: contain; /* Ensure the logo fits within the container */
-    background-repeat: no-repeat; /* Prevent the logo from repeating */
-    width: 300px; /* Adjust logo width */
-    height: 150px; /* Adjust logo height */
-    position: absolute; /* Position the logo */
-    top: 50%; /* Align vertically */
-    left: 50%; /* Align horizontally */
-    transform: translate(-50%, -50%); /* Center the logo */
+    background-image: url('https://cdn.discordapp.com/attachments/911425557286240286/1204486575023595642/Zetacraft_Standard_Logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* Navigation styles */
@@ -41,18 +43,18 @@ nav ul li {
 }
 
 nav ul li a {
-    color: orange; /* Orange text color for links */
+    color: orange;
     text-decoration: none;
-    padding: 10px 20px; /* Adjust button padding */
-    border-radius: 5px; /* Rounded corners */
-    border: 2px solid white; /* White border */
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid white;
     transition: background-color 0.3s, color 0.3s;
-    background-color: #BE5504; /* Background color of buttons */
+    background-color: #BE5504;
 }
 
 nav ul li a:hover {
-    background-color: white; /* Background color of buttons when hovered */
-    color: #EC9706; /* Text color of buttons when hovered */
+    background-color: white;
+    color: #EC9706;
 }
 
 /* Footer styles */
@@ -66,4 +68,32 @@ footer {
 /* Copyright styles */
 .copyright {
     font-size: 14px;
+}
+
+/* Additional styles for the channel list */
+.body {
+    font-family: Arial, sans-serif;
+}
+
+.channel-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.channel-icon {
+    width: 64px;
+    height: 64px;
+    margin-right: 10px;
+}
+
+.channel-name {
+    color: orange;
+    text-decoration: none;
+}
+
+.channel-link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
