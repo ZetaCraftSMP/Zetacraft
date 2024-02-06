@@ -4,23 +4,38 @@ body, h1, h2, h3, p, ul {
   padding: 0;
 }
 
-/* Style the header */
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9; /* Light gray background */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header styles */
 header {
-  background-color: orange;
-  text-align: center;
-  padding: 20px 0;
-}
-
-/* Style the header content */
-.header-content {
+  background-image: url('header-background.jpg'); /* Replace 'header-background.jpg' with your image path */
+  background-size: cover;
+  background-position: center;
   color: white;
+  text-align: center;
+  padding-top: 50px;
 }
 
-/* Style the navigation */
+.logo {
+  width: 200px; /* Adjust logo size */
+  margin-bottom: 20px;
+}
+
+/* Navigation styles */
 nav {
   background-color: orange;
-  text-align: right;
-  padding: 10px;
+  text-align: center;
+  padding: 10px 0;
 }
 
 nav ul {
@@ -35,28 +50,26 @@ nav ul li {
 nav ul li a {
   color: white;
   text-decoration: none;
+  padding: 10px 20px; /* Adjust button padding */
+  border-radius: 5px; /* Rounded corners */
+  border: 2px solid white; /* White border */
+  transition: background-color 0.3s, color 0.3s;
 }
 
-/* Style the footer */
+nav ul li a:hover {
+  background-color: white;
+  color: orange;
+}
+
+/* Footer styles */
 footer {
   background-color: orange;
-  text-align: center;
-  padding: 10px 0;
-}
-
-/* Style the copyright */
-.copyright {
   color: white;
+  text-align: center;
+  padding: 20px 0;
 }
 
-/* Responsive styles */
-@media (max-width: 768px) {
-  header, nav, footer {
-    text-align: center;
-  }
-
-  nav ul li {
-    display: block;
-    margin: 10px 0;
-  }
+/* Copyright styles */
+.copyright {
+  font-size: 14px;
 }
