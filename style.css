@@ -48,7 +48,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: white;
+  color: orange; /* Orange text color for links */
   text-decoration: none;
   padding: 10px 20px; /* Adjust button padding */
   border-radius: 5px; /* Rounded corners */
