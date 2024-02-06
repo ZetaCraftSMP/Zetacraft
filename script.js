@@ -14,3 +14,13 @@ function changeTextColor() {
 function resetTextColor() {
     document.getElementById('text').style.color = 'black';
 }
+
+function showContent(sectionId) {
+    // Hide all sections
+    document.querySelectorAll('main > section').forEach(section => {
+        section.style.display = 'none';
+    });
+
+    // Show the selected section
+    document.getElementById(sectionId).style.display = 'block';
+}
