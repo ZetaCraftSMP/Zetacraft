@@ -104,15 +104,16 @@ footer {
     margin-bottom: 40px; /* Increased margin */
 }
 
-/* Additional styles for specific rows */
-.channel-row:nth-child(1) {
-    justify-content: flex-start; /* Align to the left */
+/* Grid container */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    grid-gap: 20px; /* Gap between grid items */
 }
 
-.channel-row:nth-child(2) {
-    justify-content: center; /* Align to the center */
-}
-
-.channel-row:nth-child(3) {
-    justify-content: flex-end; /* Align to the right */
+/* Grid items */
+.grid-item {
+    border: 1px solid black; /* Border for visualization */
+    padding: 20px;
+    text-align: center;
 }
