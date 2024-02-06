@@ -18,12 +18,16 @@ body {
 
 /* Header styles */
 header {
+  position: relative; /* Ensure relative positioning for absolute positioning inside */
   background-image: url('https://media.discordapp.net/attachments/910910293402595338/1204447348760256643/2023-12-10_21.17.34.png'); /* Replace 'header-background.jpg' with your image path */
   background-size: cover;
   background-position: center;
   color: white;
   text-align: center;
-  padding-top: 130px; /* Increase the padding-top value for a taller header */
+  padding-top: 200px; /* Increase the padding-top value for a taller header */
+  display: flex; /* Use flexbox for centering */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
 }
 
 .logo {
