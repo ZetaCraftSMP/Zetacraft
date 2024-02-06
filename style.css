@@ -23,7 +23,7 @@ header {
   background-position: center;
   color: white;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 100px; /* Increase the padding-top value for a taller header */
 }
 
 .logo {
