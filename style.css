@@ -100,19 +100,19 @@ footer {
 
 .channel-row {
     display: flex;
-    justify-content: space-around; /* Distribute channels evenly */
+    justify-content: space-between; /* Distribute channels evenly */
     margin-bottom: 40px; /* Increased margin */
 }
 
-.channel-column {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+/* Additional styles for specific rows */
+.channel-row:nth-child(1) {
+    justify-content: flex-start; /* Align to the left */
 }
 
-.channel-group {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 20px;
+.channel-row:nth-child(2) {
+    justify-content: center; /* Align to the center */
+}
+
+.channel-row:nth-child(3) {
+    justify-content: flex-end; /* Align to the right */
 }
