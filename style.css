@@ -97,3 +97,9 @@ footer {
     color: black;
     font-weight: bold;
 }
+
+.channel-row {
+    display: flex;
+    justify-content: space-around; /* Distribute channels evenly */
+    margin-bottom: 20px;
+}
