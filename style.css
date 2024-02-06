@@ -1,5 +1,3 @@
-/* Existing styles */
-
 /* Header styles */
 header {
     position: relative;
@@ -96,12 +94,6 @@ footer {
     text-decoration: none;
     color: black;
     font-weight: bold;
-}
-
-.channel-row {
-    display: flex;
-    justify-content: space-between; /* Distribute channels evenly */
-    margin-bottom: 40px; /* Increased margin */
 }
 
 /* Grid container */
